@@ -75,12 +75,13 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontStyle = FontStyle.Italic)
         )
         Text(text = "20220140142",
-            style = TextStyle(fontSize = 20.sp)
+            style = TextStyle(fontSize = 20.sp,
+                color = Color.Red)
         )
         Image(
             painter = painterResource(id = R.drawable.me),
             contentDescription = "It's Me",
-            modifier = Modifier.padding(top = 10.dp). size(200.dp)
+            modifier = Modifier.padding(top = 10.dp). size(250.dp)
         )
     }
 }
