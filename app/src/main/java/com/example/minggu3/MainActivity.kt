@@ -1,5 +1,8 @@
 package com.example.minggu3
 
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -65,9 +68,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 20.sp)
         )
         Text(text = "Irfan Hidayatulah P",
-            style = TextStyle(fontSize = 15.sp,
+            style = TextStyle(fontSize = 25.sp,
                 color = Color.Blue,
-                fontWeight = FontWeight.Bold)
+                fontWeight = FontWeight.Bold,
+                fontStyle = FontStyle.Italic)
         )
         Text(text = "20220140142",
             style = TextStyle(fontSize = 20.sp)
