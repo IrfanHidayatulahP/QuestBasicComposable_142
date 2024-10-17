@@ -59,7 +59,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.images),
             contentDescription = "Login Image",
-            modifier = Modifier.padding(top = 20.dp). size(250.dp)
+            modifier = Modifier.padding(top = 5.dp). size(200.dp)
         )
     }
 }
