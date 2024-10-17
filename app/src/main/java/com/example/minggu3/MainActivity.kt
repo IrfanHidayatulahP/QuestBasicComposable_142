@@ -61,6 +61,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             contentDescription = "Login Image",
             modifier = Modifier.padding(top = 5.dp). size(200.dp)
         )
+        Text(text = "Nama",
+            style = TextStyle(fontSize = 20.sp))
     }
 }
 
