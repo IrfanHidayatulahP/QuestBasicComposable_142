@@ -34,7 +34,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Minggu3Theme {
                 Scaffold(modifier = Modifier
-                    .fillMaxSize()) { innerPadding ->
+                    .fillMaxSize()
+                    .background(Color.LightGray)) { innerPadding ->
                     BasicLayout(modifier = Modifier.padding(innerPadding))
                 }
             }
@@ -49,6 +50,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         modifier = Modifier
             .fillMaxSize()
+            .background(Color.LightGray)
     ) {
         Text(text = "Login",
             style = TextStyle(fontSize = 50.sp,
