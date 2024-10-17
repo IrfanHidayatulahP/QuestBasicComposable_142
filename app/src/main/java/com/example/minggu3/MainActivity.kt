@@ -62,7 +62,12 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 5.dp). size(200.dp)
         )
         Text(text = "Nama",
-            style = TextStyle(fontSize = 20.sp))
+            style = TextStyle(fontSize = 20.sp)
+        )
+        Text(text = "Irfan Hidayatulah P",
+            style = TextStyle(fontSize = 15.sp,
+                color = Color.Blue)
+        )
     }
 }
 
