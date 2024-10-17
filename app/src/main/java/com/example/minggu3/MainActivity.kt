@@ -71,6 +71,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.me),
             contentDescription = "It's Me",
+            modifier = Modifier.padding(top = 10.dp)
         )
     }
 }
