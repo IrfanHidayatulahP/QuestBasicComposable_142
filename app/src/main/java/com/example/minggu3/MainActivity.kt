@@ -68,6 +68,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 15.sp,
                 color = Color.Blue)
         )
+        Text(text = "20220140142")
         Image(
             painter = painterResource(id = R.drawable.me),
             contentDescription = "It's Me",
